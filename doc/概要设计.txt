@@ -1,0 +1,12 @@
+﻿                概要设计 
+
+                             By: hurley   2013/3/5
+ 
+平台：Windows NT（至少支持 Windows XP 和 Windows 7）
+语言：C++
+GUI库：Qt 4.x
+
+* Native API 实现，不使用MFC类库
+* 服务端由客户端配置并生成
+* 服务端在代码级免疫常见杀软
+* 尽量利用已有的工业级别库去实现，不重复造轮子

@@ -2,12 +2,33 @@
 *.slo
 *.lo
 *.o
+*.obj
 
 # Compiled Dynamic libraries
 *.so
+*.dll
 *.dylib
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+*.lib
+
+# The Item files
+ui_*
+moc_*
+qrc_*
+
+# Compiled files
+*.exe
+*.ini
+
+debug
+release
+Makefile
+Makefile.Release
+Makefile.Debug
+*.suo
+*.pdb
+*.bat
