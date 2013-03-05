@@ -1,0 +1,24 @@
+<RCC>
+<qresource>
+    <file>res/images/auto_conn.png</file>
+    <file>res/images/camare.png</file>
+    <file>res/images/capture_screen.png</file>
+    <file>res/images/config.png</file>
+    <file>res/images/connected.png</file>
+    <file>res/images/exit.png</file>
+    <file>res/images/file_copy.png</file>
+    <file>res/images/file_cut.png</file>
+    <file>res/images/file_delete.png</file>
+    <file>res/images/file_dirback.png</file>
+    <file>res/images/file_download.png</file>
+    <file>res/images/file_paste.png</file>
+    <file>res/images/file_upload.png</file>
+    <file>res/images/taskbar.png</file>
+    <file>res/ico/main.ico</file>
+    <file>res/sound/upfile.wav</file>
+    <file>res/sound/downfile.wav</file>
+    <file>res/sound/login.wav</file>
+    <file>res/sound/offline.wav</file>
+    <file>res/language/qt_zh_CN.qm</file>
+</qresource>
+</RCC>
