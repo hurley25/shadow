@@ -5,7 +5,9 @@
     <file>res/images/capture_screen.png</file>
     <file>res/images/config.png</file>
     <file>res/images/connected.png</file>
+    <file>res/images/min.png</file>
     <file>res/images/exit.png</file>
+    <file>res/images/about.png</file>
     <file>res/images/file_copy.png</file>
     <file>res/images/file_cut.png</file>
     <file>res/images/file_delete.png</file>
@@ -13,7 +15,6 @@
     <file>res/images/file_download.png</file>
     <file>res/images/file_paste.png</file>
     <file>res/images/file_upload.png</file>
-    <file>res/images/taskbar.png</file>
     <file>res/ico/main.ico</file>
     <file>res/sound/upfile.wav</file>
     <file>res/sound/downfile.wav</file>

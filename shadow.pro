@@ -16,6 +16,9 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += include
 
+# debug control
+#DEFINES+= QT_NO_DEBUG_OUTPUT
+
 # Input
 
 # lib file
