@@ -22,7 +22,7 @@ INCLUDEPATH += include
 LIBS +=
 
 # include file
-HEADERS +=  include/mainwindow.h
+HEADERS +=  include/mainwindow.h include/debug.h
 
 # code file
 SOURCES +=  src/main.cpp src/mainwindow.cpp
