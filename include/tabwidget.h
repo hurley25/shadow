@@ -24,7 +24,7 @@ class QToolBar;
 class QTextEdit;
 class QLineEdit;
 class QLabel;
-class FileListView;
+class FileTreeView;
 class QPushButton;
 class QHBoxLayout;
 class QVBoxLayout;
@@ -43,14 +43,12 @@ public:
 
 private:
 	QWidget *fileListWidget;		// 文件浏览标签的显示控件
-	QWidget *regWidget;				// 注册表编辑标签的显示控件
 	QWidget *processWidget;			// 进程管理标签的显示控件
 	QWidget *serverWidget;			// 服务管理标签的显示控件
 	QWidget *portWidget;			// 端口管理标签的显示控件
 	QWidget *linkControlWidget;		// 远程控制命令标签的显示控件
 	QWidget *cmdWidget;				// 远程 cmd 标签的显示控件
 
-	QAction *dirbackAction;			// 目录后退动作
 	QAction *cutAction;				// 文件剪切动作
 	QAction *copyAction;			// 文件复制动作
 	QAction *pasteAction;			// 文件粘贴动作
@@ -59,8 +57,7 @@ private:
 	QAction *downloadAction;		// 文件下载动作
 	
 	QToolBar *fileToolBar;			// 文件显示的工具栏
-	QLineEdit *fileDirEdit;			// 文件路径显示
-	FileListView *fileListView;		// 文件浏览显示
+	FileTreeView *fileListView;		// 文件浏览显示
 
 	QTextEdit *cmdTextEdit;			// cmd 输出显示窗口
 	QLabel *cmdLabel;				// 命令输入标签

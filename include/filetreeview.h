@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  filelistview.h
+//       Filename:  filetreeview.h
 //
 //    Description:  文件浏览显示
 //
@@ -14,19 +14,23 @@
 // 
 // =====================================================================================
 
-#ifndef FILELISTVIEW_H_
-#define FILELISTVIEW_H_
+#ifndef FILETREEVIEW_H_
+#define FILETREEVIEW_H_
 
-#include <QListView>
+#include <QTreeView>
 
-class FileListView : public QListView
+class QFileSystemModel;
+
+class FileTreeView : public QTreeView
 {
 	Q_OBJECT
 
 public:
-	FileListView();
-	~FileListView();
+	FileTreeView();
+	~FileTreeView();
 
+private:
+	QFileSystemModel *fileModel;	// 系统文件显示模式
 };
 
-#endif	// FILELISTVIEW_H_
+#endif	// FILETREEVIEW_H_
