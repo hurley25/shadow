@@ -22,6 +22,9 @@ class CamareDialog : public QDialog, public Ui::CamareDialog
 {
 	Q_OBJECT
 
+protected:
+	void closeEvent(QCloseEvent *event);
+
 public:
 	CamareDialog(QWidget *parent = 0);
 	~CamareDialog();

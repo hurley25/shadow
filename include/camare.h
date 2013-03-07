@@ -37,7 +37,7 @@ public:
 
 	void setLabel(QLabel * label);
 
-private slots:
+public slots:
 	void openCamara();      	// 打开摄像头
 	void readFarme();       	// 读取当前帧信息
 	void closeCamara();     	// 关闭摄像头
