@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//	   Filename:  camaraget.h
+//	   Filename:  camare.h
 //
 //	Description:  摄像头处理类头文件
 //
@@ -17,20 +17,23 @@
 #ifndef CAMARAGET_H_
 #define CAMARAGET_H_
 
+#include <QWidget>
+
 class QWidget;
 class QImage;
 class QTimer;
+class QLabel;
 
 #include <highgui.h>  //包含opencv库头文件
 #include <cv.h>
 
-class camaraGet : public QWidget
+class CamaraGet : public QWidget
 {
 	Q_OBJECT
 
 public:
-	camaraGet(QWidget *parent = 0);
-	~camaraGet();
+	CamaraGet(QWidget * parent = 0);
+	~CamaraGet();
 
 	void setLabel(QLabel * label);
 

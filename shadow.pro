@@ -14,7 +14,7 @@
 TEMPLATE = app
 TARGET = 
 DEPENDPATH += .
-INCLUDEPATH += include
+INCLUDEPATH += include E:/OpenCV2.2/include E:/OpenCV2.2/include/opencv
 
 # debug control
 #DEFINES+= QT_NO_DEBUG_OUTPUT
@@ -22,18 +22,18 @@ INCLUDEPATH += include
 # Input
 
 # lib file
-LIBS +=
+LIBS += E:/OpenCV2.2/lib/*
 
 # include file
 HEADERS +=  include/mainwindow.h include/debug.h include/linktreeview.h include/filetreeview.h  \
-			include/tabwidget.h include/camaraget.h
+			include/tabwidget.h include/camare.h include/camaredialog.h
 
 # code file
 SOURCES +=  src/main.cpp src/mainwindow.cpp src/linktreeview.cpp src/filetreeview.cpp	\
-			src/tabwidget.cpp src/camaraget.cpp
+			src/tabwidget.cpp src/camare.cpp src/camaredialog.cpp
 
 # ui file
-FORMS += 
+FORMS += ui/camaredialog.ui
 
 RESOURCES += shadow.qrc
 RC_FILE = logo.rc

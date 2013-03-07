@@ -49,6 +49,7 @@ protected:
 	//void closeEvent(QCloseEvent *event);
 
 private slots:
+	void camare();
 	void about();
 
 private:
