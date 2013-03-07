@@ -26,11 +26,11 @@ LIBS +=
 
 # include file
 HEADERS +=  include/mainwindow.h include/debug.h include/linktreeview.h include/filetreeview.h  \
-			include/tabwidget.h
+			include/tabwidget.h include/camaraget.h
 
 # code file
 SOURCES +=  src/main.cpp src/mainwindow.cpp src/linktreeview.cpp src/filetreeview.cpp	\
-			src/tabwidget.cpp
+			src/tabwidget.cpp src/camaraget.cpp
 
 # ui file
 FORMS += 
