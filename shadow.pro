@@ -25,10 +25,12 @@ INCLUDEPATH += include
 LIBS +=
 
 # include file
-HEADERS +=  include/mainwindow.h include/debug.h
+HEADERS +=  include/mainwindow.h include/debug.h include/linktreeview.h include/filelistview.h  \
+			include/tabwidget.h
 
 # code file
-SOURCES +=  src/main.cpp src/mainwindow.cpp
+SOURCES +=  src/main.cpp src/mainwindow.cpp src/linktreeview.cpp src/filelistview.cpp	\
+			src/tabwidget.cpp
 
 # ui file
 FORMS += 

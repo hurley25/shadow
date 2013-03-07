@@ -1,9 +1,11 @@
 <RCC>
 <qresource>
+    <file>res/images/logo.png</file>
     <file>res/images/auto_conn.png</file>
     <file>res/images/camare.png</file>
     <file>res/images/capture_screen.png</file>
     <file>res/images/config.png</file>
+    <file>res/images/setting.png</file>
     <file>res/images/connected.png</file>
     <file>res/images/min.png</file>
     <file>res/images/exit.png</file>
