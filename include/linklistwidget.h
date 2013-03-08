@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linktreeview.h
+//       Filename:  linklistwidget.h
 //
 //    Description:  自动上线主机显示
 //
@@ -14,23 +14,20 @@
 // 
 // =====================================================================================
 
-#ifndef LINKREEVIEW_H_
-#define LINKREEVIEW_H_
+#ifndef LINKLISTWIDGET_H_
+#define LINKLISTWIDGET_H_
 
-#include <QTreeView>
+#include <QListWidget>
 
 class QStandardItemModel;
 
-class LinkTreeView : public QTreeView
+class LinkListWidget : public QListWidget
 {
 	Q_OBJECT
 
 public:
-	LinkTreeView();
-	~LinkTreeView();
-
-private:
-	QStandardItemModel *mainModel;
+	LinkListWidget();
+	~LinkListWidget();
 };
 
-#endif	// LINKTREEVIEW_H_
+#endif	// LINKLISTWIDGET_H_

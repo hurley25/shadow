@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CamareDialog</class>
- <widget class="QDialog" name="CamareDialog">
+ <class>ScreenShotDialog</class>
+ <widget class="QDialog" name="ScreenShotDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>632</width>
-    <height>508</height>
+    <width>676</width>
+    <height>445</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>摄像头查看</string>
+   <string>捕获桌面</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>40</x>
      <y>10</y>
-     <width>501</width>
-     <height>421</height>
+     <width>591</width>
+     <height>351</height>
     </rect>
    </property>
    <property name="text">
@@ -29,27 +29,27 @@
   <widget class="QPushButton" name="startButton">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>450</y>
+     <x>160</x>
+     <y>390</y>
      <width>81</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>启动摄像头</string>
+    <string>捕获桌面</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="stopButton">
+  <widget class="QPushButton" name="saveButton">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>450</y>
+     <x>420</x>
+     <y>390</y>
      <width>81</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>关闭摄像头</string>
+    <string>保存图片</string>
    </property>
   </widget>
  </widget>

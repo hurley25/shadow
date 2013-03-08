@@ -32,8 +32,8 @@ class QSplitter;
 class QHBoxLayout;
 class QVBoxLayout;
 
-class LinkTreeView;
-class TabWidget;
+class LinkListWidget;
+class MainTabWidget;
 
 class MainWindow : public QMainWindow
 {
@@ -49,6 +49,7 @@ protected:
 	//void closeEvent(QCloseEvent *event);
 
 private slots:
+	void screenshot();
 	void camare();
 	void about();
 
@@ -71,9 +72,9 @@ private:
 
 	QPushButton *linkButton;		// 手动连接按钮
 
-	LinkTreeView *linkTreeView;		// 连接主机树形显示
+	LinkListWidget *linkListWidget;	// 连接主机树形显示
 
-	TabWidget *tabWidget;			// 标签管理
+	MainTabWidget *mainTabWidget;	// 标签管理
 
 	QHBoxLayout *topLayout;			// 顶部分割窗口
 	QSplitter *bottomSplitter;		// 底部切分窗口
@@ -92,7 +93,7 @@ private:
 	QToolBar *aboutToolBar;			// 关于相关工具栏指针
 
 	QAction *auto_connAction;		// 自动上线
-	QAction *capture_screenAction;	// 屏幕捕获
+	QAction *screenShotAction;		// 屏幕捕获
 	QAction *camareAction;			// 开启摄像头
 	QAction *configAction;			// 服务端配置
 

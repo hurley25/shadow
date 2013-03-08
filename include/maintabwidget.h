@@ -29,13 +29,13 @@ class QPushButton;
 class QHBoxLayout;
 class QVBoxLayout;
 
-class TabWidget : public QTabWidget
+class MainTabWidget : public QTabWidget
 {
 	Q_OBJECT
 
 public:
-	TabWidget();
-	~TabWidget();
+	MainTabWidget();
+	~MainTabWidget();
 
 	void createActions();			// 创建动作
 	void createToolBars();			// 创建工具栏

@@ -25,15 +25,15 @@ INCLUDEPATH += include E:/OpenCV2.2/include E:/OpenCV2.2/include/opencv
 LIBS += E:/OpenCV2.2/lib/*
 
 # include file
-HEADERS +=  include/mainwindow.h include/debug.h include/linktreeview.h include/filetreeview.h  \
-			include/tabwidget.h include/camare.h include/camaredialog.h
+HEADERS +=  include/mainwindow.h include/debug.h include/linklistwidget.h include/filetreeview.h  \
+			include/maintabwidget.h include/camareget.h include/camaredialog.h include/screenshotdialog.h
 
 # code file
-SOURCES +=  src/main.cpp src/mainwindow.cpp src/linktreeview.cpp src/filetreeview.cpp	\
-			src/tabwidget.cpp src/camare.cpp src/camaredialog.cpp
+SOURCES +=  src/main.cpp src/mainwindow.cpp src/linklistwidget.cpp src/filetreeview.cpp	\
+			src/maintabwidget.cpp src/camareget.cpp src/camaredialog.cpp src/screenshotdialog.cpp
 
 # ui file
-FORMS += ui/camaredialog.ui
+FORMS += ui/camaredialog.ui ui/screenshotdialog.ui
 
 RESOURCES += shadow.qrc
 RC_FILE = logo.rc
