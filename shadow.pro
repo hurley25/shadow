@@ -14,7 +14,9 @@
 TEMPLATE = app
 TARGET = 
 DEPENDPATH += .
-INCLUDEPATH += include E:/OpenCV2.2/include E:/OpenCV2.2/include/opencv
+INCLUDEPATH += include \
+				E:/OpenCV2.2/include \
+				E:/OpenCV2.2/include/opencv
 
 # debug control
 #DEFINES+= QT_NO_DEBUG_OUTPUT
