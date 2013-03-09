@@ -3,6 +3,7 @@
     <file>res/images/logo.png</file>
     <file>res/images/auto_conn.png</file>
     <file>res/images/camare.png</file>
+    <file>res/images/camarewait.png</file>
     <file>res/images/screenshot.png</file>
     <file>res/images/config.png</file>
     <file>res/images/setting.png</file>
@@ -10,6 +11,7 @@
     <file>res/images/min.png</file>
     <file>res/images/exit.png</file>
     <file>res/images/about.png</file>
+    <file>res/images/desktop.png</file>
     <file>res/images/file_copy.png</file>
     <file>res/images/file_cut.png</file>
     <file>res/images/file_delete.png</file>
