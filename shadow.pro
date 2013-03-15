@@ -30,13 +30,13 @@ LIBS += E:/OpenCV2.2/lib/*.lib
 HEADERS +=  include/mainwindow.h include/debug.h include/linklistwidget.h include/filetreeview.h  \
 			include/maintabwidget.h include/camareget.h include/camaredialog.h include/screenshotdialog.h \
 			include/processtreeview.h include/servertreeview.h include/linkfilewidget.h include/linkprocesswidget.h \
-			include/linkserverwidget.h include/linkcmdwidget.h
+			include/linkserverwidget.h include/linkcmdwidget.h include/linkcontrolwidget.h
 
 # code file
 SOURCES +=  src/main.cpp src/mainwindow.cpp src/linklistwidget.cpp src/filetreeview.cpp	\
 			src/maintabwidget.cpp src/camareget.cpp src/camaredialog.cpp src/screenshotdialog.cpp \
 			src/processtreeview.cpp src/servertreeview.cpp src/linkfilewidget.cpp src/linkprocesswidget.cpp \
-			src/linkserverwidget.cpp src/linkcmdwidget.cpp
+			src/linkserverwidget.cpp src/linkcmdwidget.cpp src/linkcontrolwidget.cpp
 
 # ui file
 FORMS += ui/camaredialog.ui ui/screenshotdialog.ui

@@ -22,6 +22,7 @@
 class LinkFileWidget;
 class LinkProcessWidget;
 class LinkServerWidget;
+class LinkControlWidget;
 class LinkCmdWidget;
 
 class MainTabWidget : public QTabWidget
@@ -32,15 +33,13 @@ public:
 	MainTabWidget();
 	~MainTabWidget();
 
-	void createMainWeiget();		// 创建主显示
+	void createMainWeiget();					// 创建主显示
 
 private:
 	LinkFileWidget *linkFileWidget;				// 文件浏览标签的显示控件
 	LinkProcessWidget *linkProcessWidget;		// 进程管理标签的显示控件
 	LinkServerWidget *linkServerWidget;			// 服务管理标签的显示控件
-
-	QWidget *linkControlWidget;		// 远程控制命令标签的显示控件
-
+	LinkControlWidget *linkControlWidget;		// 远程控制命令标签的显示控件
 	LinkCmdWidget *linkCmdWidget;				// 远程 cmd 标签的显示控件
 };
 
