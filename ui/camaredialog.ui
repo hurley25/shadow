@@ -26,10 +26,10 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="startButton">
+  <widget class="QPushButton" name="camareButton">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>270</x>
      <y>450</y>
      <width>81</width>
      <height>41</height>
@@ -37,19 +37,6 @@
    </property>
    <property name="text">
     <string>启动摄像头</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="stopButton">
-   <property name="geometry">
-    <rect>
-     <x>400</x>
-     <y>450</y>
-     <width>81</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>关闭摄像头</string>
    </property>
   </widget>
  </widget>
