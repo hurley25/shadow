@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//	   Filename:  screenshotdialog.h
+//	   Filename:  ScreenShotDialog.h
 //
 //	Description:  捕获屏幕对话框头文件
 //
@@ -14,7 +14,7 @@
 // 
 // =====================================================================================
 
-#include "ui_screenshotdialog.h"
+#include "ui_ScreenShotDialog.h"
 
 class QPixmap;
 

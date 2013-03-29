@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linkprocesswidget.h
+//       Filename:  LinkProcessWidget.h
 //
 //    Description:  进程管理标签 Widget
 //

@@ -27,19 +27,19 @@ INCLUDEPATH += include \
 LIBS += E:/OpenCV2.2/lib/*.lib
 
 # include file
-HEADERS +=  include/mainwindow.h include/debug.h include/linklistwidget.h include/filetreeview.h  \
-			include/maintabwidget.h include/camareget.h include/camaredialog.h include/screenshotdialog.h \
-			include/processtreeview.h include/servertreeview.h include/linkfilewidget.h include/linkprocesswidget.h \
-			include/linkserverwidget.h include/linkcmdwidget.h include/linkcontrolwidget.h
+HEADERS +=  include/MainWindow.h include/Debug.h include/LinkListWidget.h include/FileTreeView.h  \
+			include/MainTabWidget.h include/CamareGet.h include/CamareDialog.h include/ScreenShotDialog.h \
+			include/ProcessTreeView.h include/ServerTreeView.h include/LinkFileWidget.h include/LinkProcessWidget.h \
+			include/LinkServerWidget.h include/LinkCmdWidget.h include/LinkControlWidget.h
 
 # code file
-SOURCES +=  src/main.cpp src/mainwindow.cpp src/linklistwidget.cpp src/filetreeview.cpp	\
-			src/maintabwidget.cpp src/camareget.cpp src/camaredialog.cpp src/screenshotdialog.cpp \
-			src/processtreeview.cpp src/servertreeview.cpp src/linkfilewidget.cpp src/linkprocesswidget.cpp \
-			src/linkserverwidget.cpp src/linkcmdwidget.cpp src/linkcontrolwidget.cpp
+SOURCES +=  src/Main.cpp src/MainWindow.cpp src/LinkListWidget.cpp src/FileTreeView.cpp	\
+			src/MainTabWidget.cpp src/CamareGet.cpp src/CamareDialog.cpp src/ScreenShotDialog.cpp \
+			src/ProcessTreeView.cpp src/ServerTreeView.cpp src/LinkFileWidget.cpp src/LinkProcessWidget.cpp \
+			src/LinkServerWidget.cpp src/LinkCmdWidget.cpp src/LinkControlWidget.cpp
 
 # ui file
-FORMS += ui/camaredialog.ui ui/screenshotdialog.ui
+FORMS += ui/CamareDialog.ui ui/ScreenShotDialog.ui
 
 RESOURCES += shadow.qrc
 RC_FILE = logo.rc

@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linkcontrolwidget.h
+//       Filename:  LinkControlWidget.h
 //
 //    Description:  √¸¡Óπ‹¿Ì±Í«© Widget
 //

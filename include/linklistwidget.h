@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linklistwidget.h
+//       Filename:  LinkListWidget.h
 //
 //    Description:  自动上线主机显示
 //

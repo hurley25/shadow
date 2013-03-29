@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linkfilewidget.h
+//       Filename:  LinkFileWidget.h
 //
 //    Description:  文件管理标签 Widget
 //

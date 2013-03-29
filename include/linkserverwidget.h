@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linkserverwidget.h
+//       Filename:  LinkServerWidget.h
 //
 //    Description:  服务管理标签 Widget
 //

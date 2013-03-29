@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//       Filename:  linkcmdwidget.h
+//       Filename:  LinkCmdWidget.h
 //
 //    Description:  cmd π‹¿Ì±Í«© Widget
 //

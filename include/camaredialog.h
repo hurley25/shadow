@@ -1,6 +1,6 @@
 // =====================================================================================
 // 
-//	   Filename:  camaredialog.h
+//	   Filename:  CamareDialog.h
 //
 //	Description:  摄像头对话框头文件
 //
@@ -14,7 +14,7 @@
 // 
 // =====================================================================================
 
-#include "ui_camaredialog.h"
+#include "ui_CamareDialog.h"
 
 class CamaraGet;
 
